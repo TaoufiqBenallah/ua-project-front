@@ -1,0 +1,44 @@
+@import "./../../../Assets/Scss/Colors/_colors";
+.data-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tr {
+    cursor: pointer;
+  }
+  th {
+    background-color: $texts-color;
+    color: $white;
+    padding: 10px 5px;
+    border-right: 1px solid rgba($white, 0.2);
+  }
+  th:nth-child(8) {
+    padding: 10px 20px;
+  }
+  th:first-child {
+    border-radius: 5px 0 0 0;
+  }
+  th:last-child {
+    padding: 10px 5px;
+    border-radius: 0 5px 0 0;
+  }
+  td {
+    text-align: center;
+    padding: 10px 5px;
+    border-right: 1px solid $mainGray;
+    border-bottom: 1px solid $mainGray;
+  }
+  td:first-child {
+    border-left: 1px solid $mainGray;
+  }
+}
+
+.empty {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid $mainGray;
+  border-right: 1px solid $mainGray;
+  border-left: 1px solid $mainGray;
+  text-align: center;
+}

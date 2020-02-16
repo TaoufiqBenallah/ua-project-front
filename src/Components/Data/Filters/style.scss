@@ -1,0 +1,30 @@
+@import "./../../../Assets/Scss/Colors/_colors";
+
+.filters {
+  margin: 40px 0;
+  &__by-texts,
+  &__by-selections {
+    margin-bottom: 20px;
+  }
+  input,
+  select {
+    padding: 8px;
+    margin-right: 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid $borders-color;
+    margin-bottom: 20px;
+  }
+  input:last-child {
+    width: 300px;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: $texts-color;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0 rgba($black, 0.4);
+  }
+}

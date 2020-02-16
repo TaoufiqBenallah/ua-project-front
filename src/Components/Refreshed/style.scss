@@ -1,0 +1,23 @@
+@import "./../../Assets/Scss/Animations/_animations";
+@import "./../../Assets/Scss/Colors/_colors";
+
+.refreshed {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  span {
+    background-color: $bg-right-color;
+    padding: 15px 25px;
+    color: $white;
+    font-size: 16px;
+    border-radius: 100px;
+    animation: dropdwon 0.4s;
+  }
+}

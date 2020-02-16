@@ -1,0 +1,23 @@
+@import "./Assets/Scss/Colors/_colors";
+
+body {
+  width: 100%;
+  background-image: linear-gradient(
+    315deg,
+    $bg-right-color 0%,
+    $bg-left-color 74%
+  );
+  background-repeat: no-repeat;
+}
+
+.app {
+  &__container {
+    width: 100%;
+    max-width: 1170px;
+    min-height: 600px;
+    margin: 100px auto;
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 0 rgba($black, 0.4);
+  }
+}

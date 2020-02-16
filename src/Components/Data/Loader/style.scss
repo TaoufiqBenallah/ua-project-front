@@ -1,0 +1,21 @@
+@import "./../../../Assets/Scss/Colors/_colors";
+@import "./../../../Assets/Scss/Animations/_animations";
+
+.loader {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $mainGray;
+  border-right: 1px solid $mainGray;
+  border-left: 1px solid $mainGray;
+  &--cmp {
+    width: 40px;
+    height: 40px;
+    border-top: 2px solid $texts-color;
+    border-left: 2px solid $texts-color;
+    border-radius: 50%;
+    animation: loader 1s infinite;
+  }
+}

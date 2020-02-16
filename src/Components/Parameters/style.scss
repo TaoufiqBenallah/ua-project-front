@@ -1,0 +1,29 @@
+@import "./../../Assets/Scss/Colors/_colors";
+
+.parameters {
+  padding: 100px 40px;
+  h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  button {
+    background-color: $texts-color;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid $borders-color;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 800px;
+  }
+  &__pages,
+  &__reloading {
+    margin-bottom: 20px;
+  }
+}

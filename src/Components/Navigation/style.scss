@@ -1,0 +1,26 @@
+@import "./../../Assets/Scss/Colors/_colors";
+
+.navigation {
+  display: flex;
+  a {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: $texts-color;
+  }
+
+  a:first-child {
+    border-radius: 5px 0 0 0;
+  }
+
+  a:last-child {
+    border-radius: 0 5px 0 0;
+  }
+
+  &__inactive {
+    background: $mainGray;
+    border-bottom: 1px solid $borders-color;
+  }
+}

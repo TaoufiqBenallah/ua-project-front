@@ -1,0 +1,25 @@
+@import "./../../../Assets/Scss/Colors/_colors";
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  &-first,
+  &-middle,
+  &-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button,
+    span {
+      margin: 0px 5px;
+    }
+    button {
+      background-color: $texts-color;
+      color: $white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  }
+}
